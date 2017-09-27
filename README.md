@@ -9,4 +9,4 @@
 npm install
 npm run dev
 ```
-访问127.0.0.1:8088/echart-bar.html(需查看其它文件替换文件名即可)
+访问http://127.0.0.1:8088/echart-bar.html(需查看其它文件替换文件名即可)
