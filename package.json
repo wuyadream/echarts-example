@@ -1,0 +1,20 @@
+{
+  "name": "d-show-web-ng1-test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.dana-tech.com:d-show/d-show-web-ng1-test.git"
+  },
+  "author": "danale fed team",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.4"
+  }
+}

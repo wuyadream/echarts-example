@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECharts-bar</title>
+    <style>
+        h2 {
+            font-size: 34px;
+            text-align: center;
+        }
+        #echart-box {
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<h2>ECharts-bar</h2>
+<div id="echart-box">
+</div>
+<script src="js/echarts.js"></script>
+<script>
+    //初始化实例
+    var myChart = echarts.init(document.getElementById('echart-box'));
+
+    //指定图表的配置和数据
+    var option = {
+        title: {
+            text: 'ECharts实践'
+        },
+        tooltip:{},
+        legend: {
+            data:['流量']
+        },
+        xAxis: {
+            data: ['8:00','9:00','10:00','11:00','12:00','13:00']
+        },
+        yAxis: {},
+        series: [{
+            name: '流量',
+            type: 'bar',
+            data: [80, 77, 90, 55, 78, 55]
+        }]
+    };
+    //使用配置项和数据展示图表
+    myChart.setOption(option);
+</script>
+</body>
+</html>
